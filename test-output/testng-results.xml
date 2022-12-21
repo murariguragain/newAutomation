@@ -1,49 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-19T20:22:17 EST" name="Default suite" finished-at="2022-12-19T20:22:24 EST" duration-ms="6728">
+  <suite started-at="2022-12-21T18:54:09 EST" name="Default suite" finished-at="2022-12-21T18:54:23 EST" duration-ms="13977">
     <groups>
     </groups>
-    <test started-at="2022-12-19T20:22:17 EST" name="Default test" finished-at="2022-12-19T20:22:24 EST" duration-ms="6728">
-      <class name="testcases.TestCaseDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:17 EST" name="setUp" finished-at="2022-12-19T20:22:20 EST" duration-ms="2458" status="PASS">
+    <test started-at="2022-12-21T18:54:09 EST" name="Default test" finished-at="2022-12-21T18:54:23 EST" duration-ms="13977">
+      <class name="testcases.TestCaseDemo2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:09 EST" name="setUp" finished-at="2022-12-21T18:54:11 EST" duration-ms="2176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CountItems()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:20 EST" name="CountItems" finished-at="2022-12-19T20:22:20 EST" duration-ms="254" status="PASS">
+        <test-method signature="CountItems()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:11 EST" name="CountItems" finished-at="2022-12-21T18:54:11 EST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountItems -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:20 EST" name="TearDown" finished-at="2022-12-19T20:22:20 EST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:11 EST" name="TearDown" finished-at="2022-12-21T18:54:12 EST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:20 EST" name="setUp" finished-at="2022-12-19T20:22:22 EST" duration-ms="1552" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:12 EST" name="setUp" finished-at="2022-12-21T18:54:13 EST" duration-ms="1467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="GetTitle()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:22 EST" name="GetTitle" finished-at="2022-12-19T20:22:22 EST" duration-ms="250" status="PASS">
+        <test-method signature="GetTitle()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:13 EST" name="GetTitle" finished-at="2022-12-21T18:54:13 EST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetTitle -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:22 EST" name="TearDown" finished-at="2022-12-19T20:22:22 EST" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:13 EST" name="TearDown" finished-at="2022-12-21T18:54:13 EST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:22 EST" name="setUp" finished-at="2022-12-19T20:22:24 EST" duration-ms="1604" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:13 EST" name="setUp" finished-at="2022-12-21T18:54:15 EST" duration-ms="1552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:24 EST" name="login" finished-at="2022-12-19T20:22:24 EST" duration-ms="224" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:15 EST" name="Login" data-provider="loginCredentials" finished-at="2022-12-21T18:54:16 EST" duration-ms="745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo@243c4f91]" started-at="2022-12-19T20:22:24 EST" name="TearDown" finished-at="2022-12-19T20:22:24 EST" duration-ms="120" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:16 EST" name="TearDown" finished-at="2022-12-21T18:54:16 EST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- testcases.TestCaseDemo -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:16 EST" name="setUp" finished-at="2022-12-21T18:54:17 EST" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:17 EST" name="Login" data-provider="loginCredentials" finished-at="2022-12-21T18:54:18 EST" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:18 EST" name="TearDown" finished-at="2022-12-21T18:54:18 EST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:18 EST" name="setUp" finished-at="2022-12-21T18:54:20 EST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:20 EST" name="Login" data-provider="loginCredentials" finished-at="2022-12-21T18:54:21 EST" duration-ms="721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:21 EST" name="TearDown" finished-at="2022-12-21T18:54:21 EST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:21 EST" name="setUp" finished-at="2022-12-21T18:54:22 EST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:22 EST" name="Login" data-provider="loginCredentials" finished-at="2022-12-21T18:54:23 EST" duration-ms="718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestCaseDemo2@5f058f00]" started-at="2022-12-21T18:54:23 EST" name="TearDown" finished-at="2022-12-21T18:54:23 EST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.TestCaseDemo2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
